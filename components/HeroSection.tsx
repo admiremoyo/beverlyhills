@@ -322,7 +322,7 @@ export default function HeroSection() {
                 </motion.div>
 
                 {/* ── Bottom bar: dot indicators (top row) + slide label (below) ── */}
-                <div className="absolute bottom-0 left-0 right-0 z-20 px-4 pb-4">
+                <div className="absolute bottom-0 left-0 right-0 z-20 px-4 pb-6">
                   {/* Dot navigation row */}
                   <div className="flex gap-1.5 mb-2">
                     {SLIDES.map((_, i) => (

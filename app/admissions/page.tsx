@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 const feePackages = [
   {
     title: "ECD A & B",
-    subtitle: "Ages 3\u20136",
-    fee: "$250",
+    subtitle: "Early Childhood",
+    fee: "$170",
     period: "per term",
     image: "/images/whatsapp-image-2025-11-06-at-11.56.27-am-2-1076x717.jpg",
     color: "#1a6b3c",
@@ -23,7 +23,7 @@ const feePackages = [
   {
     title: "Grade 1 \u2013 7",
     subtitle: "Primary School",
-    fee: "$300",
+    fee: "$220",
     period: "per term",
     image: "/images/whatsapp-image-2025-11-06-at-11.56.27-am-2-1080x720.jpg",
     color: "#0A1C44",
@@ -37,9 +37,9 @@ const feePackages = [
     ],
   },
   {
-    title: "Form 1 \u2013 6",
+    title: "Form 1 \u2013 4",
     subtitle: "Secondary School",
-    fee: "$450",
+    fee: "$270",
     period: "per term",
     image: "/images/whatsapp-image-2025-11-06-at-11.56.24-am-1-1076x717.jpg",
     color: "#7B2D2D",
@@ -49,13 +49,29 @@ const feePackages = [
       "Science laboratory",
       "Computer Science classes",
       "Business Studies & Agriculture",
+      "Career guidance",
+    ],
+  },
+  {
+    title: "Form 5 \u2013 6",
+    subtitle: "High School (A-Level)",
+    fee: "$320",
+    period: "per term",
+    image: "/images/whatsapp-image-2025-11-06-at-11.56.24-am-1-1080x720.jpg",
+    color: "#1a3a6b",
+    highlight: false,
+    includes: [
+      "Advanced Level subjects",
+      "University entrance prep",
+      "Science & Commerce streams",
+      "Dedicated study facilities",
       "University guidance",
     ],
   },
   {
     title: "Boarding School",
     subtitle: "Full Boarding \u2014 All levels",
-    fee: "$850",
+    fee: "$620",
     period: "per term",
     image: "/images/dsc-3238-300x200.jpg",
     color: "#C9A84C",
@@ -129,7 +145,7 @@ export default function AdmissionsPage() {
       {/* Fee packages */}
       <section className="bg-[#F8F6F1] py-20">
         <div className="page-container">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-6 mb-16">
             {feePackages.map((pkg, i) => (
               <motion.div
                 key={pkg.title}
