@@ -16,7 +16,7 @@ const schools = [
     subjects: ["English", "Mathematics", "Science", "Social Studies", "Shona", "ICT", "Physical Education"],
     image: "/images/whatsapp-image-2025-11-06-at-11.56.27-am-2-1080x720.jpg",
     color: "#1A6B3C",
-    fee: "USD $250-300 / term",
+    fee: "USD $170-220 / term",
   },
   {
     id: "senior",
@@ -29,7 +29,7 @@ const schools = [
     subjects: ["Mathematics", "English", "Sciences", "Computer Science", "Business Studies", "Agriculture", "Arts"],
     image: "/images/whatsapp-image-2025-11-06-at-11.56.24-am-1-1080x720.jpg",
     color: "#0A1C44",
-    fee: "USD $450 / term",
+    fee: "USD $270-320 / term",
   },
   {
     id: "boarding",
@@ -42,7 +42,7 @@ const schools = [
     subjects: ["Nutritious Meals", "Supervised Study", "Weekend Recreation", "Pastoral Care", "Security", "Sports"],
     image: "/images/dsc-3239-300x200.jpg",
     color: "#7B2D2D",
-    fee: "USD $850 / term",
+    fee: "USD $620 / term",
   },
 ];
 
